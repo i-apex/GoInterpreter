@@ -92,6 +92,7 @@ class Interpreter {
             if(currentToken.type == TokenType.IDENTIFIER) {
                 variable2 = currentToken.value;
                 if(variable1==variable2){
+                    eat(TokenType.LCURL);
                     
                 }
             }

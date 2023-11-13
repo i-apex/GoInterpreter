@@ -9,6 +9,8 @@ enum TokenType {
     DIV,
     LPAREN,
     RPAREN,
+    LCURL,
+    RCURL,
     SEMICOLON,
     IF,
     ELSE,
